@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+	background-image: url("backgroundhmc.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	margin: 0px;
+	padding: 0px;
+	color:#F7F1E3;
+	
+}
+
+header, section, aside, article, footer, figure {
+	display: block; }
+
+
+
+nav ul {
+	text-align:right;
+	list-style: none;
+	margin-bottom: 10px;
+	padding-bottom: 16px;
+
+}
+
+nav li {
+	display: inline-block;
+
+}
+
+nav a {
+	padding: 15px;
+	display: block;
+	width: 100px;
+	text-decoration: none;
+	color: #7c9652;
+    padding-right: 20px;
+    margin-right: 10px;
+}
+
+nav a:hover {
+	background-color: rgb(157, 185, 103);
+   color: #f8f5ec;
+   border-radius: 30px;
+   text-align: center;
+}
+
+header {
+	background-color: #fdf9f2;
+	padding-top: 10px;
+}
+
+img {
+	width: 10%;
+	height: auto;
+	position: absolute;
+	top: 8px;
+	left: 16px;
+	padding-bottom: 10px;
+  }
+
+  
+h1 {
+	text-align: center;
+	padding-top: 140px;
+	color: #fffef2;
+
+	
+}
+
+p {
+	float: none;
+	text-align: center;
+	padding-top: -100px;
+	margin-top: 20px;
+ color: #f8f5ec;
+}
+
+
